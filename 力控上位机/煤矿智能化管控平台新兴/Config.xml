@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XML>
+<Fun Func="Manual"/>
+<Init RestoreInit="NoneStore"/>
+<DBVar UseVar="NoneUse"/>
+<TagNo TagNum="0.000000"/>
+<ParNo ParNum="1956666351.000000"/>
+<ADO DataSource="Provider=SQLOLEDB.1;Password=Pass@#$word;Persist Security Info=True;User ID=sa;Initial Catalog=XXNewCoaldata;Data Source=192.168.1.126" DBName="dbo.cs"/>
+<Server isLocalType="1" IP="" PORT=""/>
+<Field Fieldcount="12">
+<FIELD0 FiledName="日期" FiledValue="0" FiledType="VARCHAR"/>
+<FIELD1 FiledName="时间" FiledValue="1" FiledType="VARCHAR"/>
+<FIELD2 FiledName="类型" FiledValue="2" FiledType="VARCHAR"/>
+<FIELD3 FiledName="数值" FiledValue="3" FiledType="VARCHAR"/>
+<FIELD4 FiledName="报警组" FiledValue="4" FiledType="INT"/>
+<FIELD5 FiledName="位号" FiledValue="5" FiledType="VARCHAR"/>
+<FIELD6 FiledName="限值" FiledValue="6" FiledType="VARCHAR"/>
+<FIELD7 FiledName="级别" FiledValue="7" FiledType="INT"/>
+<FIELD8 FiledName="确认" FiledValue="8" FiledType="VARCHAR"/>
+<FIELD9 FiledName="操作员" FiledValue="9" FiledType="VARCHAR"/>
+<FIELD10 FiledName="报警描述" FiledValue="10" FiledType="VARCHAR"/>
+<FIELD11 FiledName="报警处理" FiledValue="11" FiledType="VARCHAR"/>
+<HaveNotAck HaveNotAck="1"/>
+<HaveAck HaveAck="0"/>
+<HaveRecover HaveRecover="1"/>
+</Field>
+</XML>

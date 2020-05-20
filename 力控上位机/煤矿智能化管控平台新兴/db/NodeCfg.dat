@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DbManger>
+<LAYER NodeID="1" Name="ws">
+<LAYER NodeID="2" Name="传感器数据"/>
+</LAYER>
+<LAYER NodeID="3" Name="zs"/>
+<LAYER NodeID="4" Name="ps">
+<LAYER NodeID="5" Name="显示数据"/>
+<LAYER NodeID="6" Name="输入数据"/>
+<LAYER NodeID="7" Name="显示状态"/>
+<LAYER NodeID="8" Name="控制按钮"/>
+</LAYER>
+<LAYER NodeID="9" Name="yf">
+<LAYER NodeID="10" Name="参数设置"/>
+</LAYER>
+<LAYER NodeID="11" Name="ys"/>
+<LAYER NodeID="12" Name="pd"/>
+<LAYER NodeID="13" Name="js1250"/>
+<LAYER NodeID="14" Name="js1330"/>
+<LAYER NodeID="15" Name="jxpd">
+<LAYER NodeID="16" Name="vi"/>
+<LAYER NodeID="17" Name="in"/>
+<LAYER NodeID="18" Name="st"/>
+<LAYER NodeID="19" Name="co"/>
+</LAYER>
+<LAYER NodeID="20" Name="IO"/>
+<LAYER NodeID="21" Name="jxpd1">
+<LAYER NodeID="22" Name="vi"/>
+<LAYER NodeID="23" Name="in"/>
+<LAYER NodeID="24" Name="st"/>
+<LAYER NodeID="25" Name="co"/>
+</LAYER>
+</DbManger>

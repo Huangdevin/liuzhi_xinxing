@@ -1,0 +1,1 @@
+2020-03-20 13:22:02 IDP_FAILED_delete[ViewName:Wasi,ObjName:GroupObj21]

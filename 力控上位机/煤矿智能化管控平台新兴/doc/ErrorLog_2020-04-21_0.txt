@@ -1,0 +1,3 @@
+2020-04-21 10:49:06 IDP_FAILED_delete[ViewName:Menu,ObjName:GroupObj10]
+2020-04-21 10:49:11 IDP_FAILED_delete[ViewName:Wasi,ObjName:GroupObj]
+2020-04-21 14:14:30 Wizard Web InvokeMethod failed!
