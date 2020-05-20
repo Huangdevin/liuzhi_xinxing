@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DriverFile>
+<FileInfo FileName="DataLay\OldDb\SourceMgr.dll"/>
+<FileInfo FileName="DataLay\OldDb\DataMgr.dll"/>
+<FileInfo FileName="DataLay\OldDb\DataSourceCfg.xml"/>
+</DriverFile>

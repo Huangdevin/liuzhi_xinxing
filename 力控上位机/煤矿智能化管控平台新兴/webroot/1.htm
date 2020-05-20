@@ -1,0 +1,178 @@
+<html>
+<head>
+<body>
+<script type="text/javascript">
+
+    function   open_exe(shellp,str)  
+    {  
+      var Result = 0 ;
+      try
+      {
+        a=new   ActiveXObject("wscript.shell");  
+        document.write("正在安装VCRedistributePack！");
+        a.run(shellp+"   "+str,0,true);        
+        Result = 1 ;
+      }
+      catch(e)
+      {
+        Result = 0 ;
+      }
+      return Result ;
+    }  
+
+    function readRegedit(){
+    try{
+        var obj = new ActiveXObject("WScript.Shell");
+    }
+    catch(e)
+    {
+    alert("WScript.Shell控件失败！");
+    }
+        var sPath = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\VisualStudio\\10.0\\VC\\VCRedist\\x86\\Installed";
+        var IsInstall = 0 ;
+        try
+        {
+        	IsInstall = obj.RegRead(sPath);
+        }catch(e){
+        	IsInstall = 0 ;
+        }
+         
+        return IsInstall;
+    }
+
+function DownURL(strRemoteURL,strLocalURL)
+{
+ try
+ {
+  var xmlHTTP=new ActiveXObject("Msxml2.XMLHTTP");
+  xmlHTTP.open("Get",strRemoteURL,false);
+  xmlHTTP.send(null);
+  var adodbStream=new ActiveXObject("ADODB.Stream");
+  adodbStream.Type=1;
+  adodbStream.Open();
+  adodbStream.write(xmlHTTP.responseBody);
+  adodbStream.SaveToFile(strLocalURL,1);
+  adodbStream.Close();
+  adodbStream=null;
+  xmlHTTP=null; 
+ }
+ catch(e)
+ {
+   //alert(e.name+e.message);
+  //window.confirm("下载URL出错!");
+ }
+ //window.confirm("下载完成.");
+} 
+
+	function SetIE()
+	{
+ var WshShell=new ActiveXObject("WScript.Shell");
+ //添加可信站点或IP
+try
+{
+ WshShell.RegWrite("HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Internet Explorer\\ActiveX Compatibility\\{00000566-0000-0010-8000-00AA006D2EA4}\\Compatibility Flags","0","REG_DWORD");
+
+ WshShell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Ranges\\Range100\\","");
+ WshShell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Ranges\\Range100\\http","2","REG_DWORD");
+ var web = window.location.hostname+":"+window.location.port ;
+ WshShell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Ranges\\Range100\\:Range",web);
+
+var fhostname = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Domains\\"+window.location.hostname ;
+//alert(fhostname);
+WshShell.RegWrite(fhostname,"");
+fhostname = fhostname+"\\"
+WshShell.RegWrite(fhostname,"");
+fhostname = fhostname+"\\http"
+//WshShell.RegWrite(fhostname,"2","REG_DWORD");
+ //WshShell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Domains\\"+window.location.hostname,"");
+ //WshShell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Domains\\"+window.location.hostname+"\\www","");
+ //WshShell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Domains\\"window.location.hostname+"\\www\\http","2","REG_DWORD");
+
+ //修改IE ActiveX 安全设置
+ WshShell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\2\\1001","0","REG_DWORD");
+ WshShell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\2\\1004","0","REG_DWORD");
+ WshShell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\2\\1200","0","REG_DWORD");
+ WshShell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\2\\1201","0","REG_DWORD");
+ WshShell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\2\\1405","0","REG_DWORD");
+ WshShell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\2\\2201","0","REG_DWORD");
+ //禁用弹出窗口阻止程序
+ WshShell.RegWrite("HKCU\\Software\\Microsoft\\Internet Explorer\\New Windows\\PopupMgr","no");
+}
+catch(e)
+{
+ //alert("写注册表失败！") ;
+}
+ //alert("可信站点设置，ActiveX 控件安全设置，弹出窗口设置成功");
+}
+
+function PassWordReturnJavaScript()  
+{  
+ var web = "http://"+window.location.hostname+":"+window.location.port ;
+ window.location.href = web;  
+}  	
+
+        var IsVcRedist = readRegedit();
+        if(IsVcRedist){
+	    //alert("已安装VCRedistributePack！");
+        }else{
+	    document.write("未安装VCRedistributePack！");
+            SetIE();
+            var sourceurl = window.location.href+"http/vcredist_x86.exe" ;
+//alert(sourceurl);
+	    DownURL(sourceurl,"c:\\vcredist_x86.exe");  
+		var result = 0 ;
+try{
+	    result = open_exe('c:\\vcredist_x86.exe','/q');	
+}catch(e){
+          result = 0 ;
+alert("执行错误!");
+}
+//alert(result) ;  
+if(result)
+{
+PassWordReturnJavaScript()  ;
+}else{
+    document.write("自动安装vcredist_x86失败！<a href='http/vcredist_x86.exe'>点击下载vcredist_x86.exe！</a>")
+}
+	}
+
+
+  </script>
+</body>
+<meta name="GENERATOR" content="PCAuto 6.0">
+<title>Home Page</title>
+<style>
+<!--
+-->
+{background-color: rgb(255,255,255); color: rgb(128,128,128) }{ margin-left: 1px }{ margin-left: 1px; margin-right: 1px; padding-left: 1px }
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;	
+}
+</style>
+<meta name="Microsoft Theme" content="global 101, default"><meta name="Microsoft Border" content="tl, default"></head>
+<body >
+<object id="drawcomControl" classid="clsid:223DADA1-2CC9-4312-AE8D-35E711626152" CODEBASE="drawcom.cab#version=8,1,1,63" width="1920" height="1017">
+  <param name="_Version" value="131072">
+  <param name="_ExtentX" value="18450">
+  <param name="_ExtentY" value="23566">
+  <param name="_StockProps" value="0">
+  <param name="ServerAddress" value="192.168.56.1">
+  <param name="DataAddress" value="192.168.56.1">
+  <param name="ViewName" value="">
+  <param name="FullScreen" value="true">
+  <param name="UserLevel" value="-1">
+  <param name="LocalDataSource" value="0">
+  <param name="WebPort" value="80">
+  <param name="NetType" value="1">
+  <param name="IISSubPath" value="">
+  <param name="LangPath" value="C:\FWebroot">
+</object>
+</body>
+</html>
+
+
+
+

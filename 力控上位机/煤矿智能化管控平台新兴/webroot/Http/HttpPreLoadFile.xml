@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<HttpPreLoadFile>
+	<AppPreLoad>
+		<LoadFile Name="render.dll" RunParm="" AutoRun="0" AutoReg="0"></LoadFile>
+<LoadFile Name="gdiplus.dll" RunParm="" AutoRun="0" AutoReg="0"></LoadFile>
+    <LoadFile Name="chartdir41.dll" RunParm="" AutoRun="0" AutoReg="0"></LoadFile>
+		<LoadFile Name="UserManager.dll" RunParm="" AutoRun="0" AutoReg="0"></LoadFile>
+		<LoadFile Name="FCPrinter.dll" RunParm="" AutoRun="0" AutoReg="0"></LoadFile>
+		<LoadFile Name="DataSourceTools.dll" RunParm="" AutoRun="0" AutoReg="0"></LoadFile>
+		<LoadFile Name="ADOInterface.dll" RunParm="" AutoRun="0" AutoReg="0"></LoadFile>
+		<LoadFile Name="HMILibrary.dll" RunParm="" AutoRun="0" AutoReg="0"></LoadFile>
+		<LoadFile Name="DotNetLibray.dll" RunParm="" AutoRun="0" AutoReg="0"></LoadFile>
+		<LoadFile Name="DotNetReflection.dll" RunParm="" AutoRun="0" AutoReg="0"></LoadFile>
+		<LoadFile Name="DotNetReflection.tlb" RunParm="" AutoRun="0" AutoReg="0"></LoadFile>
+		<LoadFile Name="3DTools.dll" RunParm="" AutoRun="0" AutoReg="0"></LoadFile>
+		<LoadFile Name="vcredist_x86.exe" RunParm="" AutoRun="0" AutoReg="0"></LoadFile>
+		<LoadFile Name="HMIInterface.dll" RunParm="" AutoRun="0" AutoReg="0"></LoadFile>
+		<LoadFile Name="HMILib.dll" RunParm="" AutoRun="0" AutoReg="0"></LoadFile>
+		<LoadFile Name="3D_Motorbase.dll" RunParm="" AutoRun="0" AutoReg="0"></LoadFile>
+		<LoadFile Name="chart.dll" RunParm="" AutoRun="0" AutoReg="0"></LoadFile>
+		<LoadFile Name="ChartConfig.dll" RunParm="" AutoRun="0" AutoReg="0"></LoadFile>
+		<LoadFile Name="chartdir50.dll" RunParm="" AutoRun="0" AutoReg="0"></LoadFile>
+		<LoadFile Name="HisData.exe" RunParm="" AutoRun="0" AutoReg="0"></LoadFile>
+		<LoadFile Name="SigTagDBLay.dll" RunParm="" AutoRun="0" AutoReg="0"></LoadFile>
+		<LoadFile Name="DataLine.ocx" RunParm="" AutoRun="0" AutoReg="0"></LoadFile>
+		<LoadFile Name="TimeSlider.ocx" RunParm="" AutoRun="0" AutoReg="0"></LoadFile>
+	</AppPreLoad>
+	<PluginPreLoad>
+		<Plugin  Name="精灵动态库名.dll">
+			<LoadFile  Name="FcOcxForm.dll" RunParm="" AutoRun="0" AutoReg="1"></LoadFile>
+			<LoadFile  Name="" RunParm="" AutoRun="0" AutoReg="0"></LoadFile>
+		</Plugin>
+	</PluginPreLoad>
+</HttpPreLoadFile>
