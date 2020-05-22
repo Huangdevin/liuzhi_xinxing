@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataLay>
+<DataSource SourceName="系统" DriverName="FC7 Database" DefaultSource="1">
+			<DB m_timeout="3" m_server="" m_topic=""></DB>
+		</DataSource>
+</DataLay>

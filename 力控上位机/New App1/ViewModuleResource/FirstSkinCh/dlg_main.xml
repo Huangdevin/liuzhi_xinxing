@@ -1,0 +1,59 @@
+﻿<layer  width="800" height="570" noborder="0">
+	<body  width="full" height="full">
+	    <!--视频窗口设计-->
+	    <dlg pos="2,35,-236,-5">  
+		   <dlgfile pos="0,0,-0,-0" src="1" />
+	    </dlg>
+		
+	    <!-- 界面框架设计-->
+		<dlg pos="2,0,-233,33" crbg="3595D6">  <!--左上部分颜色设计-->   		
+		</dlg>
+		<dlg pos="-233,2,-2,33" crbg="BCF199">  <!--右上部分颜色设计-->   		
+		</dlg>
+		<dlg pos="0,0,-0,2" crbg="3595D6">     <!--最上边框条设置-->
+		</dlg>
+		<dlg pos="0,-3,-0,-0" crbg="3595D6">   <!--最下边框条设置-->
+		</dlg>
+	    <dlg pos="0,2,2,-0" crbg="3595D6">   <!--最左边框条设置-->
+		</dlg>
+		<dlg pos="-2,0,-0,-0" crbg="3595D6">   <!--最右边框条设置-->
+		</dlg>
+			
+		<!--界面上方按钮设计-->
+		<dlg pos="2,4,-262,25">  
+           <dlgfile pos="0,0,-0,-0" src="2"/>
+		</dlg>
+		
+		
+		
+		<!--回放界面设计-->
+	   
+	    <dlg pos="2,36,-240,-2">  
+           <dlgfile pos="0,0,-0,-0" src="3" />
+		   
+		</dlg>
+	
+		<tabctrl id="137" tabwidth="80" tabheight="23" tabskin="tabmain_right" iconskin="logomodule_"   tabspacing="30" tabpos="28" framepos="7" pos="-240,4,-2,-2" icon-x="5" icon-y="3" text-x="10" text-y="0">
+			
+		   <tab title="云台控制" width="full" height="full" crtext="000000">
+				<dlg pos="0,0,-0,-2" crbg="CCFFAA">  <!--只是为了与回放时的背景色相同,这个放在<dlgfile..的上面，否则dlgfile中dlg标签对应的按钮会被覆盖-->
+    
+                </dlg>	
+				<dlgfile pos="0,0,-0,-0" src="4" />	
+      
+			</tab>
+			<tab title="设备列表" width="full" height="full" crtext="000000">
+				 <dlgfile pos="0,0,-0,-0" src="5" />	
+                 <dlg pos="0,0,-250,-2" crbg="CCFFAA">  <!--只是为了与回放时的背景色相同-->
+    
+                </dlg>							
+			</tab>
+		</tabctrl>
+		
+		<dlg pos="-237,34,-233,-2"  crbg="3595D6"> <!--左右分割条设置-->
+		</dlg>
+	     
+		
+		
+	</body>
+</layer>

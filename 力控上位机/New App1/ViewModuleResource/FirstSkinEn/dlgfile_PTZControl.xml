@@ -1,0 +1,108 @@
+﻿<dlg pos="-250,0,-0,-0" crtext="000000">
+	<dlg pos="22,5,-0,173">
+			<dlg pos="10,0,-0,-0" crtext="6d6d6d">
+				<dlg id="209" pos="15,10,100,57" class="btnexamright" onlydrawchild="1" crbg="FF0000">
+					<img pos="15,7" skin="righttopicon" sub="1"/>
+					<text pos="40,10" crtext1="3064A5" font1="0204">Aperture</text>
+				</dlg>
+				<dlg id="210" pos="113,10,198,57" class="btnexamright" onlydrawchild="1" crbg1="FF0000">
+					<img pos="15,7" skin="righttopicon" sub="2"/>
+					<text pos="40,10" crtext1="3064A5" font1="0204">Aperture</text>
+				</dlg>
+				<dlg id="211" pos="15,67,100,114" class="btnexamright" onlydrawchild="1" crbg1="FF0000">
+					<img pos="15,7" skin="righttopicon" sub="3"/>
+					<text pos="40,10" crtext1="3064A5" font1="0204">Zoom</text>
+				</dlg>
+				<dlg id="212" pos="113,67,198,114" class="btnexamright" onlydrawchild="1" crbg1="FF0000">
+					<img pos="15,7" skin="righttopicon" sub="0"/>
+					<text id="581" pos="40,10" crtext1="3064A5" font1="0204">Zoom</text>
+				</dlg>
+				<dlg id="213" pos="15,124,100,171" class="btnexamright" onlydrawchild="1" crbg="FF0000">
+					<img pos="15,7" skin="righttopicon" sub="4"/>
+					<text pos="40,10" crtext1="3064A5" font1="0204">Zoom</text>
+				</dlg>
+				<dlg id="214" pos="113,124,198,171" class="btnexamright" onlydrawchild="1" crbg="FF0000">
+					<img pos="15,7" skin="righttopicon" sub="5"/>
+					<text pos="40,10" crtext1="3064A5" font1="0204">Zoom</text>
+				</dlg>
+			</dlg>
+	</dlg>
+	<dlg pos="22,169,-0,253">
+	         <!--First of all, this part of the functional frame design-->
+			 <dlg pos="25,0,-20,-0" crbg="BCF199">
+			    <hr pos="0,0,-0,0" size=2 crbg="3595D6"/>
+				<hr pos="0,0,0,-0" size=2 crbg="3595D6"/>
+				<hr pos="0,-0,-0,-0" size=2 crbg="3595D6"/>
+				<hr pos="-0,0,-0,-0" size=2 crbg="3595D6"/>
+			 </dlg>
+			 
+             <text pos="80,10,-0,25"  crtext1="3064A5" font1="0204">%str22%</text><!--"Preset point setting"-->
+	         <realwnd id="202" class="normalbtn" pos="50,30,-50,40"/><!--Preset group and box-->
+			 <button  id="203" class="normalbtn" pos="60,53,-118,-8">Call</button> <!--"Call"button-->
+			 <button  id="204" class="normalbtn" pos="-113,53,-60,-8">Set up</button><!--"Set up"button-->
+			
+	</dlg>
+	
+	<dlg pos="38,270,-0,336">
+	   <!-- Design this part of the entire frame-->
+	   <dlg pos="10,0,-20,-0" crbg="BCF199">
+	        <hr pos="0,0,-0,0" size=2 crbg="3595D6"/>
+			<hr pos="0,0,0,-0" size=2 crbg="3595D6"/>
+			<hr pos="0,-0,-0,-0" size=2 crbg="3595D6"/>
+			<hr pos="-0,0,-0,-0" size=2 crbg="3595D6"/>
+	   </dlg>
+	
+		<dlg pos="20,9,-0,0">
+				<text pos="10,5" crtext1="3064A5" font1="0204">%str20%</text><!--"PTZ speed"-->
+				<realwnd id="201" class="normalbtn" pos="80,0,150,15"/><!--PTZ speed setting combo box-->
+		</dlg>
+		<dlg pos="20,39,-0,30">
+			   <text pos="10,5"  crtext1="3064A5" font1="0204">%str9%</text><!--"The number of window settings"-->
+			   <realwnd id="200" class="normalbtn" pos="80,0,150,15"/><!--Number of windows sets groups and boxes-->
+		</dlg>
+	</dlg>
+	
+	<dlg pos="15,355,-0,475">
+	  
+		   <irregularbtn id="205"  class="linkimage" pos="50,7" skin="PTZ_BK_UP">  <!--irregularbtn The corresponding picture must be png transparent background image-->
+		   <!--Up-->
+		   </irregularbtn>
+          <irregularbtn id="206"  class="linkimage" pos="50,76" skin="PTZ_BK_DOWN">
+		   <!--Down-->
+		  </irregularbtn>
+          <irregularbtn id="207"  class="linkimage" pos="50,7" skin="PTZ_BK_LEFT">
+		   <!--Left-->
+		  </irregularbtn>		
+		 <irregularbtn id="208"  class="linkimage" pos="119,7" skin="PTZ_BK_RIGHT">
+		   <!--Right-->
+		 </irregularbtn>
+	</dlg>
+	
+	 
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</dlg>
+
+
+
+
+
+
+
+
+
+

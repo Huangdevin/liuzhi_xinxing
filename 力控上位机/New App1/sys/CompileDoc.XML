@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+<View Name="自定义函数" Flag="1"/>
+<View Name="应用程序动作" Flag="1"/>
+<View Name="按键动作" Flag="1"/>
+<View Name="条件动作" Flag="1"/>
+<View Name="数据改变动作" Flag="1"/>
+<View Name="菜单动作" Flag="1"/>
+<View Name="后台组件" Flag="1"/>
+<View Name="DRAW1" Flag="1"/>
+</Project>
