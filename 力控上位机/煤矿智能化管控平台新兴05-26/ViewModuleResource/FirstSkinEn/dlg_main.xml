@@ -1,0 +1,59 @@
+﻿<layer  width="800" height="570" noborder="0">
+	<body  width="full" height="full">
+	    <!--Video window design-->
+	    <dlg pos="2,35,-236,-5">  
+		   <dlgfile pos="0,0,-0,-0" src="1" />
+	    </dlg>
+		
+	    <!-- Interface frame design-->
+		<dlg pos="2,0,-233,33" crbg="3595D6">  <!--Upper left part color design-->   		
+		</dlg>
+		<dlg pos="-233,2,-2,33" crbg="BCF199">  <!--Upper right part color design-->   		
+		</dlg>
+		<dlg pos="0,0,-0,2" crbg="3595D6">     <!--Top frame settings-->
+		</dlg>
+		<dlg pos="0,-3,-0,-0" crbg="3595D6">   <!--The bottom frame setting-->
+		</dlg>
+	    <dlg pos="0,2,2,-0" crbg="3595D6">   <!--The leftmost frame settings-->
+		</dlg>
+		<dlg pos="-2,0,-0,-0" crbg="3595D6">   <!--The rightmost settings-->
+		</dlg>
+			
+		<!--Interface above button design-->
+		<dlg pos="2,4,-262,25">  
+           <dlgfile pos="0,0,-0,-0" src="2"/>
+		</dlg>
+		
+		
+		
+		<!--Playback interface design-->
+	   
+	    <dlg pos="2,36,-240,-2">  
+           <dlgfile pos="0,0,-0,-0" src="3" />
+		   
+		</dlg>
+	
+		<tabctrl id="137" tabwidth="80" tabheight="23" tabskin="tabmain_right" iconskin="logomodule_"   tabspacing="30" tabpos="28" framepos="7" pos="-240,4,-2,-2" icon-x="5" icon-y="3" text-x="10" text-y="0">
+			
+		   <tab title="PTZ control" width="full" height="full" crtext="000000">
+				<dlg pos="0,0,-0,-2" crbg="CCFFAA">  <!--Just to play back with the same background color, this on the <dlgfile .. above, otherwise dlgfile dlg label corresponding button will be overwritten-->
+    
+                </dlg>	
+				<dlgfile pos="0,0,-0,-0" src="4" />	
+      
+			</tab>
+			<tab title="Device List" width="full" height="full" crtext="000000">
+				 <dlgfile pos="0,0,-0,-0" src="5" />	
+                 <dlg pos="0,0,-250,-2" crbg="CCFFAA">  <!--Just to be the same as the background color when playing back-->
+    
+                </dlg>							
+			</tab>
+		</tabctrl>
+		
+		<dlg pos="-237,34,-233,-2"  crbg="3595D6"> <!--Left and right split bar settings-->
+		</dlg>
+	     
+		
+		
+	</body>
+</layer>

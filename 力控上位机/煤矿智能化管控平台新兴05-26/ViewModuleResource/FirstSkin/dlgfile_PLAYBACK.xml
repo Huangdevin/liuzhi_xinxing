@@ -1,0 +1,27 @@
+﻿<!--注意点:该页所有realwnd标签对应的pos值的right值都必须是负值，否则控件创建会失败-->
+<dlg pos="0,0,-0,-2" crbg="CCFFAA"> <!--该区域全长515单位--> 
+    <dlg pos="0,0,-0,40">
+       <text pos="5,17" crtext1="3064A5" font1="0204">%str42%</text><!--"开始时间"-->
+	   <realwnd id="104" class="normalbtn" pos="60,12,-407,35"/>
+	   <realwnd id="105" class="normalbtn" pos="150,12,-322,35"/><!--开始时间控件-->
+	   <text pos="244,17" crtext1="3064A5" font1="0204">%str43%</text><!--"结束时间"-->
+	   <realwnd id="106" class="normalbtn" pos="300,12,-180,35"/><!--结束日期控件-->
+	   <realwnd id="107" class="normalbtn" pos="378,12,-97,35"/><!--结束时间控件-->
+	   <button id="103" class="normalbtn" pos="474,12,-24,35">查找</button><!--查找按钮-->
+	</dlg>
+	<dlg pos="0,40,-0,150" crbg="DDFFAA">
+	   <realwnd id="108" class="normalbtn" pos="5,0,-5,-0"/><!--列表框控件-->
+	</dlg>
+	<dlg pos="0,152,-0,400">
+	   <realwnd id="109" ctrlid="109" pos="5,0,-5,-0" />  <!--回放窗口-->
+	</dlg>
+	<dlg pos="0,405,-0,-0">
+	   <progress id="110"  class="progrestyle" pos="5,2,-5,15" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos" show="1" /> <!--滑动条-->
+	   <realwnd id="111" class="normalbtn" pos="120,25,-398,50" /> <!--播放暂停按钮-->
+	   <realwnd id="112" class="normalbtn" pos="168,25,-350,50" /> <!--停止按钮-->
+	   <realwnd id="113" class="normalbtn" pos="245,25,-276,50" /> <!--慢进按钮-->
+	   <realwnd id="114" class="normalbtn" pos="293,25,-225,50" /> <!--快进按钮-->
+	   <realwnd id="115" class="normalbtn" pos="370,25,-148,50" /> <!--上一帧按钮-->
+	   <realwnd id="116" class="normalbtn" pos="418,25,-100,50" /> <!--下一帧按钮-->
+	</dlg>
+</dlg>

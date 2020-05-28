@@ -1,0 +1,9 @@
+﻿<dlg pos="-243,1,-0,-0">	
+        <hr pos="0,0,-0,-0" crbg="BCF199"/>
+       <realwnd id="100" ctrlid="100" pos="12,0,-0,-50"/><!--Tree controls-->	
+       <dlg pos="16,-45,-0,-5">
+	        <text pos="10,0" crtext1="3064A5" font1="0204">Operation:</text>  <!--"Operation"-->
+			<button id="101" class="normalbtn" pos="55,10,115,35">Import</button>    <!--Import button-->
+			<button id="102" class="normalbtn" pos="140,10,200,35">Export</button>  <!--Export button-->
+       </dlg>	   
+</dlg>	

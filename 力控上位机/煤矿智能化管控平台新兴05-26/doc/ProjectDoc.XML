@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+<Folder Name="运输">
+<View Name="Yunshu" ID="1"/>
+<View Name="运输曲线" ID="2"/>
+<View Name="运输视频监控主井皮带机头" ID="3"/>
+<View Name="运输视频监控转载皮带机头" ID="4"/>
+<View Name="运输操作记录" ID="5"/>
+</Folder>
+<Folder Name="排水">
+<View Name="Paishui" ID="6"/>
+<View Name="排水曲线" ID="7"/>
+<View Name="排水参数设置" ID="8"/>
+<View Name="排水视频监控水泵房" ID="9"/>
+<View Name="排水操作记录" ID="10"/>
+</Folder>
+<Folder Name="压风">
+<View Name="Yafeng" ID="11"/>
+<View Name="压风曲线" ID="12"/>
+<View Name="压风参数设置" ID="13"/>
+<View Name="压风视频监控空压机房" ID="14"/>
+<View Name="压风操作记录" ID="15"/>
+</Folder>
+<Folder Name="局扇">
+<View Name="Jushan" ID="16"/>
+<View Name="局扇曲线" ID="17"/>
+<View Name="局扇视频监控1200风机点" ID="18"/>
+<View Name="局扇视频监控1330风机点" ID="19"/>
+<View Name="局扇操作记录" ID="20"/>
+</Folder>
+<Folder Name="主扇">
+<View Name="Zhushan" ID="21"/>
+<View Name="主扇曲线" ID="22"/>
+<View Name="主扇视频监控1330风机点" ID="23"/>
+<View Name="主扇视频监控控制室" ID="24"/>
+<View Name="主扇操作记录" ID="25"/>
+</Folder>
+<Folder Name="瓦斯">
+<View Name="Wasi" ID="26"/>
+<View Name="瓦斯曲线" ID="27"/>
+<View Name="瓦斯监控视频抽放泵房" ID="28"/>
+<View Name="瓦斯监控视频抽放配电房" ID="29"/>
+<View Name="瓦斯运行记录" ID="30"/>
+<View Name="瓦斯操作记录" ID="31"/>
+</Folder>
+<Folder Name="配电">
+<View Name="Gongpeidian" ID="32"/>
+<View Name="确认分合闸" ID="33"/>
+<View Name="配电曲线" ID="34"/>
+<View Name="配电视频监控地面变电外" ID="35"/>
+<View Name="配电视频监控地面变电内" ID="36"/>
+<View Name="jxpd" ID="37"/>
+<View Name="jxpd1" ID="38"/>
+<View Name="配电参数设置" ID="39"/>
+<View Name="配电参数设置1" ID="40"/>
+<View Name="配电选择菜单" ID="41"/>
+<View Name="配电视频监控井下1" ID="42"/>
+<View Name="配电视频监控井下2" ID="43"/>
+<View Name="地面配电操作记录" ID="44"/>
+<View Name="井下低压配电操作记录" ID="45"/>
+<View Name="井下高压配电操作记录" ID="46"/>
+<View Name="DMPDCS" ID="47"/>
+</Folder>
+<View Name="Login" ID="48"/>
+<View Name="Menu" ID="49"/>
+<View Name="System_Auth" ID="50"/>
+<View Name="cs" ID="51"/>
+<View Name="cs1" ID="52"/>
+</Project>

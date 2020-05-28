@@ -1,0 +1,2 @@
+2020-03-25 15:08:56 IDP_FAILED_delete[ViewName:Menu,ObjName:GroupObj1]
+2020-03-25 15:08:59 IDP_FAILED_delete[ViewName:Wasi,ObjName:GroupObj21]

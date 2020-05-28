@@ -1,0 +1,143 @@
+<filename>
+<name id=1>dlgfile_Video.xml</name>
+<name id=2>dlgfile_PTZ.xml</name>
+<name id=3>dlgfile_PLAYBACK.xml</name>
+<name id=4>dlgfile_PTZControl.xml</name>
+<name id=5>dlgfile_devicelist.xml</name>
+<name id=6>def_skin.xml</name>
+<name id=7>def_style.xml</name>
+<name id=8>def_string.xml</name>
+<name id=9>dlg_main.xml</name>
+<name id=></name>
+<name id=></name>
+</filename>
+
+<!--
+// ICON
+
+DEFINE_ICO(IDI_BEIKESAFE,                  	 			100, 					"res\\beikesafe.ico")
+DEFINE_ICO(IDI_SMALL,                      	 			101, 					"res\\small.ico")
+DEFINE_ICO(IDI_PLAY_ENABLE,						        233,					"res\\PLAY_ENABLE.ICO")
+DEFINE_ICO(IDI_PLAY_DISABLE,						    234,					"res\\PLAY_DISABLE.ICO")
+DEFINE_ICO(IDI_PAUSE_ENABLE,						    235,					"res\\PAUSE_ENABLE.ICO")
+DEFINE_ICO(IDI_PAUSE_DISABLE,						    236,					"res\\icon1.ico")
+DEFINE_ICO(IDI_STOP_ENABLE,						        237,					"res\\STOP.ICO")
+DEFINE_ICO(IDI_STOP_DISABLE,						    238,					"res\\STOP_DISABLE.ICO")
+DEFINE_ICO(IDI_FASTFORWARD_DISABLE,						239,					"res\\ico00003.ico")
+DEFINE_ICO(IDI_FASTBACKWARD_DISABLE,					240,					"res\\ico00002.ico")
+DEFINE_ICO(IDI_FASTFORWARD_ENABLE,						241,					"res\\ico00001.ico")
+DEFINE_ICO(IDI_FASTBACKWARD_ENABLE,						242,					"res\\icon8.ico")
+DEFINE_ICO(IDI_STEP_ENABLE,						        243,					"res\\icon2.ico")
+DEFINE_ICO(IDI_STEP_DISABLE,						    244,					"res\\step_disable.ico")
+DEFINE_ICO(IDI_STEPBACK_ENABLE,						    245,					"res\\ico00010.ico")
+DEFINE_ICO(IDI_STEPBACK_DISABLE,						246,					"res\\ico00011.ico")
+//////////////////////////////////////////////////////////////////////////
+// PNG
+
+ DEFINE_PNG(IDP_LOGO_MODULE,                 			    3,   					"res\\logo_module.png")
+  DEFINE_PNG(IDP_LOGO_MODULE_,                 			    4,   					"res\\logo_module_.png")
+ DEFINE_PNG(IDP_VUL_TIP,									12,	 					 "res\\vul_tip_icon.png")
+ DEFINE_PNG(IDP_PNG_RIGHTTOP_32,						    42,						 "res\\right_top_icon.png")
+ DEFINE_PNG(IDP_PNG_PTZ,                                    43,                       "res\\PTZ.png")
+ DEFINE_PNG(IDB_BTN_SYS_CLOSE_PNG,							44,						 "res\\btn_sys_close.png")
+ DEFINE_PNG(IDB_BTN_SYS_MAXIMIZE_PNG,						46,						 "res\\btn_sys_maximize.png")
+ DEFINE_PNG(IDB_BTN_SYS_MINIMIZE_PNG,						47,						 "res\\btn_sys_minimize.png")
+ DEFINE_PNG(IDB_BTN_SYS_RESTORE_PNG,						48,						  "res\\btn_sys_restore.png")
+ DEFINE_PNG(IDB_BTN_SYS_RESTORE_PNG_UP,					    49,						  "res\\PTZ_BK_UP.png")
+ DEFINE_PNG(IDB_BTN_SYS_RESTORE_PNG_DOWN,					50,						  "res\\PTZ_BK_DOWN.PNG")
+ DEFINE_PNG(IDB_BTN_SYS_RESTORE_PN2_LEFT,					51,						  "res\\PTZ_BK_LEFT.PNG")
+ DEFINE_PNG(IDB_BTN_SYS_RESTORE_PN3_RIGHT,					52,						  "res\\PTZ_BK_RIGHT.PNG")
+//////////////////////////////////////////////////////////////////////////
+// BITMAP
+
+
+DEFINE_BMP(IDB_MAIN_BG_BODY,                			2,   					"res\\main_bg_body.bmp")
+DEFINE_BMP(IDB_MSGBOX_BG,                   			4,   					"res\\msgbox_bg.bmp")
+DEFINE_BMP(IDB_TAB_MAIN,                    			5,   					"res\\tab_main.bmp")
+DEFINE_BMP(IDB_TAB_NORMAL,                  			6,   					"res\\tab_normal.bmp")
+DEFINE_BMP(IDB_TAB_MAIN_RIGHT,                  		7,   					"res\\tab_main_right.bmp")
+DEFINE_BMP(IDB_SPLITTER_ARROW,              			11,  					"res\\splitter_arrow.bmp")
+DEFINE_BMP(IDB_ARROW,                       			18,  					"res\\arrow.bmp")
+ DEFINE_BMP(IDB_ICON_FLASH,                  			21,  					"res\\icon_flash.bmp")
+DEFINE_BMP(IDB_EXAM_TITLE_BG_ONLY,						23,  					"res\\exam_title_bg_only.bmp")
+DEFINE_BMP(IDB_EXAM_TITLE_BMP,							24,  					"res\\exam_title_icon.bmp")
+DEFINE_BMP(IDB_BTN_VIRSCAN_BG,              			27,  					"res\\btn_virscan_bg.bmp")
+DEFINE_BMP(IDP_BG_MSGBOX_BODY,							29,  					"res\\msgbox_body_bg.bmp")
+DEFINE_BMP(IDB_VUL_DETAIL_BG,							31,						"res\\vul_Detail.bmp")
+
+DEFINE_BMP(IDB_FRAME_PANEL,                             107,                    "res\\frame_panel.bmp")
+DEFINE_BMP(IDB_FRAME_PANEL_GRAY,                        106,                    "res\\frame_panel_gray.bmp")
+DEFINE_BMP(IDB_PROGRESS_BAR_BG,                         108,                    "res\\progress_bar_bg.bmp")
+DEFINE_BMP(IDB_PROGRESS_BAR_VALUE,                      109,                    "res\\progress_bar_value.bmp")
+DEFINE_BMP(IDB_PROGRESS_BAR_VALUE_RED,                  113,                    "res\\progress_bar_value_red.bmp")
+DEFINE_BMP(IDB_BITMAP_LISTCTRL_HEADER,					210, 					"res\\listctrl_header.bmp")
+DEFINE_BMP(IDB_BITMAP_LISTCTRL_CHECK,					211, 					"res\\listctrl_check.bmp")
+DEFINE_BMP(IDB_BITMAP_MINUS_PLUS,						212, 					"res\\minus_plus.bmp")
+DEFINE_BMP(IDB_BITMAP_LISTCTRL_RADIO,					213, 					"res\\listctrl_radio.bmp")
+
+DEFINE_BMP(IDB_CLEAR_PANEL,		        				217, 					"res\\clear_panel.bmp")
+DEFINE_BMP(IDB_EXAM_RIGHT_TOP_BG,						504,					"res\\exam_right_btn_bg.bmp")
+
+
+
+
+
+DEFINE_BMP(IDB_BMP_TREE,						        218,					"res\\tree.bmp")
+DEFINE_BMP(IDB_BITMAP_LOGOUT,						    219,					"res\\logout.bmp")
+DEFINE_BMP(IDB_BITMAP_LOGIN,						    220,					"res\\login.bmp")
+DEFINE_BMP(IDB_BITMAP_FORTIFY,						    221,					"res\\fortify.bmp")
+DEFINE_BMP(IDB_BITMAP_DEV_ALARM,						222,					"res\\dev_alarm.bmp")
+DEFINE_BMP(IDB_BITMAP_FORTIFY_ALARM,					223,					"res\\fortify_alarm.bmp")
+DEFINE_BMP(IDB_BITMAP_CAMERA,						    224,					"res\\camera.bmp")
+DEFINE_BMP(IDB_BITMAP_PLAY,						        225,					"res\\play.bmp")
+DEFINE_BMP(IDB_BITMAP_REC,						        226,					"res\\rec.bmp")
+DEFINE_BMP(IDB_BITMAP_PLAYANDREC,						227,					"res\\rec_play.bmp")
+DEFINE_BMP(IDB_BITMAP_ALARM,						    228,					"res\\Alarm.bmp")
+DEFINE_BMP(IDB_BITMAP_PLAY_ALARM,						229,					"res\\play_alarm.bmp")
+DEFINE_BMP(IDB_BITMAP_P_R_A,						    230,					"res\\p_r_a.bmp")
+DEFINE_BMP(IDB_BITMAP_CHAN_OFF,						    231,					"res\\IPChan.bmp")
+DEFINE_BMP(IDB_BITMAP_BACK,						        232,					"res\\beijin.bmp")
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
