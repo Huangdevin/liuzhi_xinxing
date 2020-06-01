@@ -123,4 +123,16 @@
 <View Name="井下低压配电操作记录" Flag="1"/>
 <View Name="井下高压配电操作记录" Flag="1"/>
 <View Name="DMPDCS_1" Flag="1"/>
+<View Name="排水一号运行记录" Flag="1"/>
+<View Name="排水二号运行记录" Flag="1"/>
+<View Name="排水三号运行记录" Flag="1"/>
+<View Name="一号皮带运行记录" Flag="1"/>
+<View Name="二号皮带运行记录" Flag="1"/>
+<View Name="局扇1250运行记录" Flag="1"/>
+<View Name="局扇1330运行记录" Flag="1"/>
+<View Name="主扇一号风机运行记录" Flag="1"/>
+<View Name="瓦斯一号泵运行记录" Flag="1"/>
+<View Name="瓦斯二号泵运行记录" Flag="1"/>
+<View Name="瓦斯三号泵运行记录" Flag="1"/>
+<View Name="瓦斯四号泵运行记录" Flag="1"/>
 </Project>

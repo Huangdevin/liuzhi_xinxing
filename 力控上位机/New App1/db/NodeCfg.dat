@@ -1,15 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DbManger>
-<LAYER NodeID="1" Name="Area1">
-<LAYER NodeID="4" Name="Unit1"/>
-<LAYER NodeID="5" Name="Unit2"/>
-</LAYER>
-<LAYER NodeID="2" Name="Area2">
-<LAYER NodeID="6" Name="Unit1"/>
-<LAYER NodeID="7" Name="Unit2"/>
-</LAYER>
-<LAYER NodeID="3" Name="Area3">
-<LAYER NodeID="8" Name="Unit1"/>
-<LAYER NodeID="9" Name="Unit2"/>
-</LAYER>
+<LAYER NodeID="1" Name="test"/>
 </DbManger>

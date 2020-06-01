@@ -1,0 +1,2 @@
+2020-06-01 13:50:10 IDP_FAILED_delete[ViewName:Menu,ObjName:GroupObj10]
+2020-06-01 13:51:35 IDP_FAILED_delete[ViewName:Yafeng,ObjName:GroupObj1]

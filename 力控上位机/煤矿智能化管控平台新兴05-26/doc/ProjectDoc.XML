@@ -6,6 +6,8 @@
 <View Name="运输视频监控主井皮带机头" ID="3"/>
 <View Name="运输视频监控转载皮带机头" ID="4"/>
 <View Name="运输操作记录" ID="5"/>
+<View Name="一号皮带运行记录" ID="56"/>
+<View Name="二号皮带运行记录" ID="57"/>
 </Folder>
 <Folder Name="排水">
 <View Name="Paishui" ID="6"/>
@@ -13,6 +15,9 @@
 <View Name="排水参数设置" ID="8"/>
 <View Name="排水视频监控水泵房" ID="9"/>
 <View Name="排水操作记录" ID="10"/>
+<View Name="排水一号运行记录" ID="53"/>
+<View Name="排水二号运行记录" ID="54"/>
+<View Name="排水三号运行记录" ID="55"/>
 </Folder>
 <Folder Name="压风">
 <View Name="Yafeng" ID="11"/>
@@ -27,6 +32,8 @@
 <View Name="局扇视频监控1200风机点" ID="18"/>
 <View Name="局扇视频监控1330风机点" ID="19"/>
 <View Name="局扇操作记录" ID="20"/>
+<View Name="局扇1250运行记录" ID="58"/>
+<View Name="局扇1330运行记录" ID="59"/>
 </Folder>
 <Folder Name="主扇">
 <View Name="Zhushan" ID="21"/>
@@ -34,6 +41,7 @@
 <View Name="主扇视频监控1330风机点" ID="23"/>
 <View Name="主扇视频监控控制室" ID="24"/>
 <View Name="主扇操作记录" ID="25"/>
+<View Name="主扇一号风机运行记录" ID="60"/>
 </Folder>
 <Folder Name="瓦斯">
 <View Name="Wasi" ID="26"/>
@@ -42,6 +50,10 @@
 <View Name="瓦斯监控视频抽放配电房" ID="29"/>
 <View Name="瓦斯运行记录" ID="30"/>
 <View Name="瓦斯操作记录" ID="31"/>
+<View Name="瓦斯一号泵运行记录" ID="61"/>
+<View Name="瓦斯二号泵运行记录" ID="62"/>
+<View Name="瓦斯三号泵运行记录" ID="63"/>
+<View Name="瓦斯四号泵运行记录" ID="64"/>
 </Folder>
 <Folder Name="配电">
 <View Name="Gongpeidian" ID="32"/>
