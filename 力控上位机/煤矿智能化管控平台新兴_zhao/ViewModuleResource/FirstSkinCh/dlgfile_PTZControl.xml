@@ -1,0 +1,108 @@
+﻿<dlg pos="-250,0,-0,-0" crtext="000000">
+	<dlg pos="22,5,-0,173">
+			<dlg pos="10,0,-0,-0" crtext="6d6d6d">
+				<dlg id="209" pos="15,10,100,57" class="btnexamright" onlydrawchild="1" crbg="FF0000">
+					<img pos="15,7" skin="righttopicon" sub="1"/>
+					<text pos="40,10" crtext1="3064A5" font1="0204">光圈</text>
+				</dlg>
+				<dlg id="210" pos="113,10,198,57" class="btnexamright" onlydrawchild="1" crbg1="FF0000">
+					<img pos="15,7" skin="righttopicon" sub="2"/>
+					<text pos="40,10" crtext1="3064A5" font1="0204">光圈</text>
+				</dlg>
+				<dlg id="211" pos="15,67,100,114" class="btnexamright" onlydrawchild="1" crbg1="FF0000">
+					<img pos="15,7" skin="righttopicon" sub="3"/>
+					<text pos="40,10" crtext1="3064A5" font1="0204">变焦</text>
+				</dlg>
+				<dlg id="212" pos="113,67,198,114" class="btnexamright" onlydrawchild="1" crbg1="FF0000">
+					<img pos="15,7" skin="righttopicon" sub="0"/>
+					<text id="581" pos="40,10" crtext1="3064A5" font1="0204">变焦</text>
+				</dlg>
+				<dlg id="213" pos="15,124,100,171" class="btnexamright" onlydrawchild="1" crbg="FF0000">
+					<img pos="15,7" skin="righttopicon" sub="4"/>
+					<text pos="40,10" crtext1="3064A5" font1="0204">缩放</text>
+				</dlg>
+				<dlg id="214" pos="113,124,198,171" class="btnexamright" onlydrawchild="1" crbg="FF0000">
+					<img pos="15,7" skin="righttopicon" sub="5"/>
+					<text pos="40,10" crtext1="3064A5" font1="0204">缩放</text>
+				</dlg>
+			</dlg>
+	</dlg>
+	<dlg pos="22,169,-0,253">
+	         <!--首先对整个这部分功能外框进行设计-->
+			 <dlg pos="25,0,-20,-0" crbg="BCF199">
+			    <hr pos="0,0,-0,0" size=2 crbg="3595D6"/>
+				<hr pos="0,0,0,-0" size=2 crbg="3595D6"/>
+				<hr pos="0,-0,-0,-0" size=2 crbg="3595D6"/>
+				<hr pos="-0,0,-0,-0" size=2 crbg="3595D6"/>
+			 </dlg>
+			 
+             <text pos="80,10,-0,25"  crtext1="3064A5" font1="0204">%str22%</text><!--"预设点设置"-->
+	         <realwnd id="202" class="normalbtn" pos="50,30,-50,40"/><!--预设点组和框-->
+			 <button  id="203" class="normalbtn" pos="60,53,-118,-8">调用</button> <!--"调用"按钮-->
+			 <button  id="204" class="normalbtn" pos="-113,53,-60,-8">设置</button><!--"设置"按钮-->
+			
+	</dlg>
+	
+	<dlg pos="38,270,-0,336">
+	   <!-- 对这部分整个外框设计-->
+	   <dlg pos="10,0,-20,-0" crbg="BCF199">
+	        <hr pos="0,0,-0,0" size=2 crbg="3595D6"/>
+			<hr pos="0,0,0,-0" size=2 crbg="3595D6"/>
+			<hr pos="0,-0,-0,-0" size=2 crbg="3595D6"/>
+			<hr pos="-0,0,-0,-0" size=2 crbg="3595D6"/>
+	   </dlg>
+	
+		<dlg pos="20,9,-0,0">
+				<text pos="10,5" crtext1="3064A5" font1="0204">%str20%</text><!--"云台速度"-->
+				<realwnd id="201" class="normalbtn" pos="80,0,150,15"/><!--云台速度设置组合框-->
+		</dlg>
+		<dlg pos="20,39,-0,30">
+			   <text pos="10,5"  crtext1="3064A5" font1="0204">%str9%</text><!--"窗口数设置"-->
+			   <realwnd id="200" class="normalbtn" pos="80,0,150,15"/><!--窗口数设置组和框-->
+		</dlg>
+	</dlg>
+	
+	<dlg pos="15,355,-0,475">
+	  
+		   <irregularbtn id="205"  class="linkimage" pos="50,7" skin="PTZ_BK_UP">  <!--irregularbtn对应的图片必须是png的透明底色图片-->
+		   <!--上-->
+		   </irregularbtn>
+          <irregularbtn id="206"  class="linkimage" pos="50,76" skin="PTZ_BK_DOWN">
+		   <!--下-->
+		  </irregularbtn>
+          <irregularbtn id="207"  class="linkimage" pos="50,7" skin="PTZ_BK_LEFT">
+		   <!--左-->
+		  </irregularbtn>		
+		 <irregularbtn id="208"  class="linkimage" pos="119,7" skin="PTZ_BK_RIGHT">
+		   <!--右-->
+		 </irregularbtn>
+	</dlg>
+	
+	 
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</dlg>
+
+
+
+
+
+
+
+
+
+

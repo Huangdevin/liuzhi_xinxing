@@ -1,0 +1,27 @@
+﻿<!--Note: all the realwnd labels on the page corresponding to the value of the pos value must be negative, otherwise the control will fail to create-->
+<dlg pos="0,0,-0,-2" crbg="CCFFAA"> <!--The area is 515 units in length--> 
+    <dlg pos="0,0,-0,40">
+       <text pos="5,17" crtext1="3064A5" font1="0204">%str42%</text><!--"Start time"-->
+	   <realwnd id="104" class="normalbtn" pos="60,12,-407,35"/>
+	   <realwnd id="105" class="normalbtn" pos="150,12,-322,35"/><!--Start time control-->
+	   <text pos="244,17" crtext1="3064A5" font1="0204">%str43%</text><!--"End Time"-->
+	   <realwnd id="106" class="normalbtn" pos="300,12,-180,35"/><!--End date control-->
+	   <realwnd id="107" class="normalbtn" pos="378,12,-97,35"/><!--End time control-->
+	   <button id="103" class="normalbtn" pos="474,12,-24,35">Find</button><!--Find button-->
+	</dlg>
+	<dlg pos="0,40,-0,150" crbg="DDFFAA">
+	   <realwnd id="108" class="normalbtn" pos="5,0,-5,-0"/><!--List box controls-->
+	</dlg>
+	<dlg pos="0,152,-0,400">
+	   <realwnd id="109" ctrlid="109" pos="5,0,-5,-0" />  <!--Playback window-->
+	</dlg>
+	<dlg pos="0,405,-0,-0">
+	   <progress id="110"  class="progrestyle" pos="5,2,-5,15" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos" show="1" /> <!--Slide bar-->
+	   <realwnd id="111" class="normalbtn" pos="120,25,-398,50" /> <!--Play pause button-->
+	   <realwnd id="112" class="normalbtn" pos="168,25,-350,50" /> <!--Stop button-->
+	   <realwnd id="113" class="normalbtn" pos="245,25,-276,50" /> <!--Slow forward button-->
+	   <realwnd id="114" class="normalbtn" pos="293,25,-225,50" /> <!--Fast forward button-->
+	   <realwnd id="115" class="normalbtn" pos="370,25,-148,50" /> <!--Previous frame button-->
+	   <realwnd id="116" class="normalbtn" pos="418,25,-100,50" /> <!--Next frame button-->
+	</dlg>
+</dlg>

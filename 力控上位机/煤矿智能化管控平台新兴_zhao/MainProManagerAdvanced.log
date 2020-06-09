@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProManagerAdvanced>
+<Process Num="7">
+<n0 HideTray="0" UseHotKey="0" VirtualKeyCode="0" Modifiers="0" UsePwd="0" Pwd="" FCProcess="1">ProcessManager</n0>
+<n1 HideTray="0" UseHotKey="0" VirtualKeyCode="0" Modifiers="0" UsePwd="0" Pwd="" FCProcess="1">PLog</n1>
+<n2 HideTray="0" UseHotKey="0" VirtualKeyCode="0" Modifiers="0" UsePwd="0" Pwd="" FCProcess="1">NetServer</n2>
+<n3 HideTray="0" UseHotKey="0" VirtualKeyCode="0" Modifiers="0" UsePwd="0" Pwd="" FCProcess="1">DB</n3>
+<n4 HideTray="0" UseHotKey="0" VirtualKeyCode="0" Modifiers="0" UsePwd="0" Pwd="" FCProcess="1">IoMonitor</n4>
+<n5 HideTray="0" UseHotKey="0" VirtualKeyCode="0" Modifiers="0" UsePwd="0" Pwd="" FCProcess="1">View</n5>
+<n6 HideTray="0" UseHotKey="0" VirtualKeyCode="0" Modifiers="0" UsePwd="0" Pwd="" FCProcess="1">ODBCRouter</n6>
+</Process>
+</ProManagerAdvanced>

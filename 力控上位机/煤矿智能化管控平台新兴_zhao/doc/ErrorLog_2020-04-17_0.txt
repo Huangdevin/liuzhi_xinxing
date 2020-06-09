@@ -1,0 +1,1 @@
+2020-04-17 15:54:00 IDP_FAILED_delete[ViewName:Login,ObjName:ButtonEx1]

@@ -1,0 +1,18 @@
+﻿<dlg pos="0,0,-0,-0" crtext="000000">
+	<dlg id="601" pos="10,0,72,23," class="btnexamup" onlydrawchild="1" crbg="FF0000">
+		<img pos="10,4" skin="topicon" sub="1"/>
+		<text pos="32,6" crtext1="3064A5" font1="0204">播放</text>
+	</dlg>
+	<dlg id="602" pos="102,0,162,23" class="btnexamup" onlydrawchild="1" crbg1="FF0000">
+		<img pos="10,4" skin="topicon" sub="2"/>
+		<text pos="32,6" crtext1="3064A5" font1="0204">录像</text>
+	</dlg>
+	<dlg id="603" pos="192,0,252,23" class="btnexamup" onlydrawchild="1" crbg1="FF0000">
+		<img pos="10,4" skin="topicon" sub="3"/>
+		<text  pos="32,6" crtext1="3064A5" font1="0204">抓图</text>
+	</dlg>
+	<dlg id="604" pos="282,0,344,23" class="btnexamup" onlydrawchild="1" crbg1="FF0000">
+		<img pos="10,4" skin="topicon" sub="0"/>
+		<text id="605" pos="32,6" crtext1="3064A5" font1="0204">回放</text>
+	</dlg>			
+</dlg>

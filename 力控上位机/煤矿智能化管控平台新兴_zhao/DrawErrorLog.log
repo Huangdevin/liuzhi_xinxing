@@ -1,0 +1,34 @@
+	Abnormal exit(ErrCode:C015000F ErrAddr:77C14261)
+77C14261 (ntdll): RtlUlonglongByteSwap
+75E45E64 (kernel32): DeactivateActCtx
+6D4D9B85 (mfc100u): (NULL)
+760F62FA (USER32): gapfnScSendMessage
+760F6D3A (USER32): GetThreadDesktop
+760F77C4 (USER32): CharPrevW
+760F788A (USER32): DispatchMessageW
+6D5D21CB (mfc100u): (NULL)
+6D5F80AA (mfc100u): (NULL)
+0042861E (draw): (NULL)
+75E4343D (kernel32): BaseThreadInitThunk
+77BC9832 (ntdll): RtlInitializeExceptionChain
+77BC9805 (ntdll): RtlInitializeExceptionChain
+
+	Abnormal exit(ErrCode:C0000005 ErrAddr:6D0F684D)
+6D0F684D (mfc100u): (NULL)
+6D0E2283 (mfc100u): (NULL)
+6D0E2A88 (mfc100u): (NULL)
+00360C29 (draw): (NULL)
+6D0E22D3 (mfc100u): (NULL)
+6D0E21B8 (mfc100u): (NULL)
+6D1080AA (mfc100u): (NULL)
+004C861E (draw): (NULL)
+76DE343D (kernel32): BaseThreadInitThunk
+774D9832 (ntdll): RtlInitializeExceptionChain
+774D9805 (ntdll): RtlInitializeExceptionChain
+
+	Exception In LButtonDown
+	Exception In LButtonDown
+	Exception In LButtonDown
+	Exception In LButtonDown
+	Exception In LButtonDown
+	Exception In LButtonDown

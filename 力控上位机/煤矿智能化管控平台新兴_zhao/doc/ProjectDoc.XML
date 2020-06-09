@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+<Folder Name="运输">
+<View Name="Yunshu" ID="1"/>
+<View Name="运输曲线" ID="2"/>
+<View Name="运输视频监控主井皮带机头" ID="3"/>
+<View Name="运输视频监控转载皮带机头" ID="4"/>
+<View Name="运输操作记录" ID="5"/>
+<View Name="运输历史报警" ID="6"/>
+<View Name="二号皮带运行记录" ID="63"/>
+<View Name="一号皮带运行记录" ID="73"/>
+</Folder>
+<Folder Name="排水">
+<View Name="Paishui" ID="7"/>
+<View Name="排水曲线" ID="8"/>
+<View Name="排水参数设置" ID="9"/>
+<View Name="排水视频监控水泵房" ID="10"/>
+<View Name="排水操作记录" ID="11"/>
+<View Name="排水历史报警" ID="12"/>
+<View Name="排水二号运行记录" ID="66"/>
+<View Name="排水三号运行记录" ID="67"/>
+<View Name="排水一号运行记录" ID="68"/>
+</Folder>
+<Folder Name="压风">
+<View Name="压风曲线" ID="13"/>
+<View Name="压风参数设置" ID="14"/>
+<View Name="压风视频监控空压机房" ID="15"/>
+<View Name="压风操作记录" ID="16"/>
+<View Name="压风历史报警" ID="17"/>
+<View Name="Yafeng" ID="62"/>
+<View Name="一号空压机运行记录" ID="75"/>
+<View Name="二号空压机运行记录" ID="77"/>
+<View Name="一号储气罐运行记录" ID="79"/>
+<View Name="二号储气罐运行记录" ID="78"/>
+</Folder>
+<Folder Name="局扇">
+<View Name="Jushan" ID="18"/>
+<View Name="局扇曲线" ID="19"/>
+<View Name="局扇视频监控1200风机点" ID="20"/>
+<View Name="局扇视频监控1330风机点" ID="21"/>
+<View Name="局扇操作记录" ID="22"/>
+<View Name="局扇历史报警" ID="23"/>
+<View Name="局扇1330运行记录" ID="65"/>
+<View Name="局扇1200运行记录" ID="64"/>
+</Folder>
+<Folder Name="主扇">
+<View Name="Zhushan" ID="24"/>
+<View Name="主扇曲线" ID="25"/>
+<View Name="主扇视频监控1330风机点" ID="26"/>
+<View Name="主扇视频监控控制室" ID="27"/>
+<View Name="主扇操作记录" ID="28"/>
+<View Name="主扇历史报警" ID="29"/>
+<View Name="主扇一号风机运行记录" ID="74"/>
+</Folder>
+<Folder Name="瓦斯">
+<View Name="Wasi" ID="30"/>
+<View Name="瓦斯曲线" ID="31"/>
+<View Name="瓦斯监控视频抽放泵房" ID="32"/>
+<View Name="瓦斯监控视频抽放配电房" ID="33"/>
+<View Name="瓦斯操作记录" ID="35"/>
+<View Name="瓦斯历史报警" ID="36"/>
+<View Name="瓦斯二号泵运行记录" ID="69"/>
+<View Name="瓦斯三号泵运行记录" ID="70"/>
+<View Name="瓦斯四号泵运行记录" ID="71"/>
+<View Name="瓦斯一号泵运行记录" ID="72"/>
+</Folder>
+<Folder Name="配电">
+<View Name="Gongpeidian" ID="37"/>
+<View Name="确认分合闸" ID="38"/>
+<View Name="配电曲线" ID="39"/>
+<View Name="配电视频监控地面变电外" ID="40"/>
+<View Name="配电视频监控地面变电内" ID="41"/>
+<View Name="jxpd" ID="42"/>
+<View Name="jxpd1" ID="43"/>
+<View Name="配电参数设置" ID="44"/>
+<View Name="配电参数设置1" ID="45"/>
+<View Name="配电选择菜单" ID="46"/>
+<View Name="配电视频监控井下1" ID="47"/>
+<View Name="配电视频监控井下2" ID="48"/>
+<View Name="地面配电操作记录" ID="49"/>
+<View Name="井下低压配电操作记录" ID="50"/>
+<View Name="井下高压配电操作记录" ID="51"/>
+<View Name="DMPDCS" ID="52"/>
+<View Name="井下低压历史报警" ID="53"/>
+<View Name="井下高压历史报警" ID="54"/>
+</Folder>
+<View Name="Login" ID="55"/>
+<View Name="Menu" ID="56"/>
+<View Name="System_Auth" ID="57"/>
+<View Name="cs" ID="58"/>
+<View Name="LEDShow" ID="59"/>
+<View Name="Kj90" ID="60"/>
+<View Name="Kj251" ID="61"/>
+<View Name="Camera" ID="34"/>
+</Project>

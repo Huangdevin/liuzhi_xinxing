@@ -1,0 +1,2 @@
+2019-12-13 21:06:38 Wizard TimeSpan SetRect failed!
+2019-12-13 21:06:53 Wizard TimeSpan SetRect failed!
