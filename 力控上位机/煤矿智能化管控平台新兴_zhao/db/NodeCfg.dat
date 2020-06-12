@@ -23,6 +23,17 @@
 <LAYER NodeID="17" Name="in"/>
 <LAYER NodeID="18" Name="st"/>
 <LAYER NodeID="19" Name="co"/>
+<LAYER NodeID="27" Name="配电参数">
+<LAYER NodeID="28" Name="风机总开关"/>
+<LAYER NodeID="29" Name="风机2段总馈电"/>
+<LAYER NodeID="30" Name="一段电源总馈电"/>
+<LAYER NodeID="31" Name="阀门控制箱"/>
+<LAYER NodeID="32" Name="动力电源1250_1330"/>
+<LAYER NodeID="33" Name="二段电源3号分馈电"/>
+<LAYER NodeID="34" Name="动力母联"/>
+<LAYER NodeID="35" Name="西动力电闭锁开关"/>
+<LAYER NodeID="36" Name="东大巷钻煤机"/>
+</LAYER>
 </LAYER>
 <LAYER NodeID="20" Name="IO"/>
 <LAYER NodeID="21" Name="jxpd1">

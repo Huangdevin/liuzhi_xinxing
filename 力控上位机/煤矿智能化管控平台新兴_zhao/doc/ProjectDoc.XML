@@ -51,6 +51,7 @@
 <View Name="主扇操作记录" ID="28"/>
 <View Name="主扇历史报警" ID="29"/>
 <View Name="主扇一号风机运行记录" ID="74"/>
+<View Name="主扇二号风机运行记录" ID="76"/>
 </Folder>
 <Folder Name="瓦斯">
 <View Name="Wasi" ID="30"/>
@@ -83,6 +84,7 @@
 <View Name="DMPDCS" ID="52"/>
 <View Name="井下低压历史报警" ID="53"/>
 <View Name="井下高压历史报警" ID="54"/>
+<View Name="井下低压配电参数" ID="80"/>
 </Folder>
 <View Name="Login" ID="55"/>
 <View Name="Menu" ID="56"/>

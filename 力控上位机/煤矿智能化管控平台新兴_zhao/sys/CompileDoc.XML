@@ -154,4 +154,6 @@
 <View Name="二号空压机运行记录" Flag="1"/>
 <View Name="一号储气罐运行记录" Flag="1"/>
 <View Name="二号储气罐运行记录" Flag="1"/>
+<View Name="主扇二号风机运行记录" Flag="1"/>
+<View Name="井下低压配电参数" Flag="1"/>
 </Project>
